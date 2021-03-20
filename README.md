@@ -5,7 +5,7 @@ This was a team project done by me and my friend @Nikraj
 
 I worked on backed part like database and php and edited fronted file to convert them into php templates.
 
-## Phase #1
+## Phase 1
 
 Planning features.
 Planning Database.
