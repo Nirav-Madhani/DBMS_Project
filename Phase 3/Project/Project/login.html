@@ -1,0 +1,70 @@
+<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8"> 
+<meta name="generator" content="#" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="google-site-verification" content="YpuiZejih1KA6LXt6jEKEVm6wo0UZi6udTRCRcXIxlo" />
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+    <link href='log_reg.css' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function()
+      {
+  $(".login-form").hide();
+$(".login").css("background", "none");
+
+$(".login").click(function(){
+  $(".signup-form").hide();
+  $(".login-form").show();
+  $(".signup").css("background", "none");
+  $(".login").css("background", "#3498db");
+});
+
+$(".signup").click(function(){
+  $(".signup-form").show();
+  $(".login-form").hide();
+  $(".login").css("background", "none");
+  $(".signup").css("background", "#3498db");
+});
+
+$(".btn").click(function(){
+  $(".input").val("");
+});
+});
+</script>
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="container">
+      
+      <div class="signup">Sign Up</div>
+      <div class="login">Log In</div>
+      
+       <form method="POST" action="clogin.php" class="signup-form">
+        
+          <input type="text" name="name" placeholder="Full Name" pattern="[a-zA-Z\s]+" class="input" id="first-name">        
+          </br>
+          <input type="text" name="pno" placeholder="PhoneNumber" pattern="[0-9]{10}" class="input" id="telephone" > <br />
+          <input type="text" name="mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Email" class="input" id="email"><br />
+          
+          <input type="password" name="pwd" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"class="input" id="password"><br />
+          <input type="submit" value="Create Account" id="btn">
+       </form>
+      
+      <form method="POST" class="login-form" action="clogin.php">
+          <input type="text" name="email" placeholder="Email or Username" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" class="input" id="email"><br />
+          <input type="password" name="passwd" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" class="input" id="password"><br />
+          <input type="submit" value="login" id="btn">
+       </form>
+      
+    </div>
+  </div>
+
+
+</body>
+</html>

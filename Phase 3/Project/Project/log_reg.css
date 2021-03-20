@@ -1,0 +1,188 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background:url(http://thekitemap.com/images/feedback-img.jpg) no-repeat;
+  background-size: cover;
+  height:100%;
+  font-family: roboto;
+  user-select: none;
+}
+
+.container{
+  background-color:rgba(72,72,72,0.4);
+    padding-left:35px;
+    padding-right:35px;
+    padding-top:35px;
+    padding-bottom:50px;
+    width: 450px;
+    float: left;
+    left: 50%;
+    position: absolute;
+  margin-top:30px;
+    margin-left: -260px;
+}
+
+.signup,
+.login{
+  width: 50%;
+   background-color: #3498db;
+  float: left;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 1px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  background-color: #3498db;
+  color:white;
+  font-size:16px;
+  font-weight: 500;
+}
+.signup-form,
+.login-form{
+  background: #e9e9e9;
+  padding: 40px;
+  clear: both;
+  width: 100%;
+  box-sizing: border-box;
+  height:100%;
+}
+
+#first-name
+{
+  background-image: url(https://img.icons8.com/color/48/000000/user.png);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+#bname
+{
+  background-image: url(https://img.icons8.com/color/48/000000/add-contact-to-company.png);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+#ad1
+{
+  background-image: url(https://img.icons8.com/color/48/000000/visit.png);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+#ad2
+{
+  background-image: url(https://img.icons8.com/color/48/000000/visit.png);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+#city
+{
+  background-image: url(https://img.icons8.com/color/48/000000/city.png);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+#pcode
+{
+  background-image: url(https://img.icons8.com/color/48/000000/enter-pin.png);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+#desc
+{
+  background-image: url(https://img.icons8.com/color/48/000000/create-new.png);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+#telephone
+{
+  background-image: url(https://img.icons8.com/color/48/000000/ringing-phone.png);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+#email
+{
+  background-image: url(https://img.icons8.com/color/48/000000/new-post.png);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+#password
+{
+  background-image: url(https://img.icons8.com/color/48/000000/key.png);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+.input{
+    border-radius:25px;
+    color:#3c3c3c;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    line-height: 22px;
+    background-color: #fbfbfb;
+    padding: 13px 13px 13px 54px;
+    margin-bottom: 10px;
+    width:100%;
+    box-sizing: border-box;
+    border: 3px solid rgba(0,0,0,0);
+}
+
+.input:focus{
+  border: 2px solid #ff353b;
+}
+
+#btn{
+  margin-top:2%;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 20%;
+  background: #ff353c;
+  border-radius: 50px;
+  border:2px solid #ff353c;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+#btn:hover
+{
+   background: white;
+   border: 2px outset #ff353c;
+   color:#ff353c;
+}
+span a{
+  text-decoration: none;
+  color: #000;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #3e3e40;
+  font-family: roboto;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #3e3e40;
+  font-family: roboto;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #3e3e40;
+  font-family: roboto;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #3e3e40;
+  font-family: roboto;
+}

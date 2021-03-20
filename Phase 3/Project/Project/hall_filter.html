@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+
+
+
+
+<html lang="en">
+  <head>
+
+
+<title>Hall</title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    	(function($) { // Begin jQuery
+  $(function() { // DOM ready
+    // If a link has a dropdown, add sub menu toggle.
+    $('nav ul li a:not(:only-child)').click(function(e) {
+      $(this).siblings('.nav-dropdown').toggle();
+      // Close one dropdown when selecting another
+      $('.nav-dropdown').not($(this).siblings()).hide();
+      e.stopPropagation();
+    });
+    // Clicking away from dropdown will remove the dropdown class
+    $('html').click(function() {
+      $('.nav-dropdown').hide();
+    });
+    // Toggle open and close nav styles on click
+    $('#nav-toggle').click(function() {
+      $('nav ul').slideToggle();
+    });
+    // Hamburger to X toggle
+    $('#nav-toggle').on('click', function() {
+      this.classList.toggle('active');
+    });
+  }); // end DOM ready
+})(jQuery); // end jQuery
+    </script>
+
+
+
+<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8"> 
+<meta name="generator" content="#" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="google-site-verification" content="YpuiZejih1KA6LXt6jEKEVm6wo0UZi6udTRCRcXIxlo" />
+<link rel="icon" type="image/x-icon" href="https://d23aex6kzd4ahz.cloudfront.net/img/favicon.png">
+
+	
+	
+		<link rel="next5" href="/banquet-halls/mumbai/all/?city%5B%5D=mumbai&slots%5B%5D=first&slots%5B%5D=second&max_price=6000&min_price=0&eventDate=2020-4-2&category%5B%5D=banquet-halls&category%5B%5D=banquet-halls&category%5B%5D=banquet-halls&page=2">
+    <link href='nav.css' rel='stylesheet' type='text/css'>
+
+
+	
+	<link href="https://d23aex6kzd4ahz.cloudfront.net/dist/css/6.16/global-optimize.min.css" rel="stylesheet" />
+
+	<link href="https://d23aex6kzd4ahz.cloudfront.net/dist/css/6.16/listings.min.css" rel="stylesheet" />
+
+
+
+  </head>
+
+  <body class="">
+    
+    
+				
+		<section class="navigation">
+  <div class="nav-container">
+    <div class="brand">
+      <a href="#!">Event Manager</a>
+    </div>
+    <nav>
+      <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+            <ul class="nav-list">
+        <li>
+          <a href="index.php">Hall</a>
+        </li>
+        <li>
+          <a href="caterers.php">Caterer</a>
+        </li>
+        <li>
+          <a href="decorator.php">Decorator</a>
+        </li>
+        <li>
+          <a href="photographer.php">Photographer</a>
+        </li>
+        <li>
+          <a href="#!">Contact</a>
+        </li>
+                 <li>
+          <a href="#!">Sign In</a>
+          <ul class="nav-dropdown">
+            <li>
+              <a href="cLogin.php">Customer</a>
+            </li>
+            <li>
+              <a href="pLogin.php">Professional</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</section>				
+						
+								
+					
+
+
+
+        
+	
+
+	
+<main class="cd-main-content" style="margin:3%">
+
+<input type="hidden" value="show_pop" id="show-pop">
+<input type="hidden" id="ga-page-type" value="desktop_listing">
+
+
+
+
+
+
+
+
+		
+	
+			<div class="clearfix"></div>
+			<div class="categoryProduct xsResponse clearfix">
+				
+
+
+<div class="row">
+	<div class="col-sm-12">
+		<input type="hidden" value="" class="max_stockrecord_price">
+		<input type="hidden" value="" class="min_stockrecord_price">
+		<input type="hidden" value="mumbai" class="city_name">
+		<input type="hidden" value="False" class="is_destination_weddings">
+		<input type="hidden" value="/mumbai/venue/get/venues/findmyvenue/" class="search_url">
+		<input type="hidden" value="/mumbai/find-nearby-localities/" class="locality_search_url">
+		<input type="hidden" value="None" class="initial-lat">
+		<input type="hidden" value="None" class="initial-lng">
+		<input type="hidden" value="1" class="initial-page">
+
+		<form method="POST" action="" class="filters-body">
+			<div class="venue-filters is-collapsed" id="div-find-my-venue">
+				<div class="box-filter">
+					<div class="search-bar" style="">
+						<div class="venue-area">
+							<span class="fa fa-map-marker" aria-hidden="true"></span>
+							
+							<input id="localitySearch_oyo"  value="" class="form-control localitySearch_oyo" name="city" placeholder="Enter the Location">
+							
+						</div>
+						<div class="venue-action">
+							<div class="filters-price--actions">
+								<div>
+									<!-- <a class="all-reset btn btn-default btn-sm reset-btn"><i class="fa fa-repeat" aria-hidden="true"></i> Reset Filters</a> -->
+									<button class="more-filter-btn" type="button" data-toggle="collapse" data-target="#collapseFilter" aria-expanded="false" aria-controls="collapseFilter">
+									 <i class="fa fa fa-filter" aria-hidden="true"></i>
+									  More Filters
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					
+
+					
+
+				<!-- if no locality -->
+
+			<!-- Bootstrap collapse -->
+			<div class="collapse" id="collapseFilter">
+				<div class="filter-actions" style="padding-top: 0; border-bottom: 0; margin-top: -15px;">
+					<div class="row">
+						<!-- <div class="col-md-12">
+							<div class="">
+								<button type="button" class="btn btn-link btn-sm cancel collapse-filters pull-right" data-toggle="collapse" data-target="#collapseFilter" aria-expanded="false" aria-controls="collapseFilter">Less Filters</button>
+							</div>
+						</div> -->
+						<div class="col-lg-8 col-md-7 col-sm-7"></div>
+						<div class="col-lg-4 col-md-5 col-sm-5">
+							<div class="filter-actions--actions">
+								<div>
+									<a class="all-reset btn btn-default btn-sm reset-btn"><i class="fa fa-repeat" aria-hidden="true"></i> Reset Filters</a>
+									<button type="button" class="btn btn-link btn-sm cancel collapse-filters pull-right" data-toggle="collapse" data-target="#collapseFilter" aria-expanded="false" aria-controls="collapseFilter">Less Filters <i class="fa fa-angle-up" aria-hidden="true"></i></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+				<div class="filters-capacity filter-section bootstro"
+					data-bootstro-step="3"
+					data-bootstro-title="Filter by Capacity"
+					data-bootstro-content="<p>Change the number of guests to see venues best for that capacity</p>"
+					data-bootstro-placement="left">
+
+					<div class="row">
+						<div class="col-sm-2">
+							<div class="filter-title">No. of Guests</div>
+						</div>
+						<div class="col-sm-10">
+							<div class="row">
+								<div class="col-lg-4 col-sm-5">
+
+									<div class="range-filter filter-container filter list-page">
+										<div class="more-filters-dropdown-menu outside-filter pax-items">
+											<div class="dropdown-filter-wrapper">
+												<div class="capacity-list-wrapper">
+													<ul class="lower-list capacity-list" data-sample="lower" style="display: block;">
+														<li class="capacity-item any" data-sample="lower" data-value="">Any</li>
+
+														<li class="capacity-item" data-sample="lower" data-value=250 >250+</li>
+
+														<li class="capacity-item" data-sample="lower" data-value=500 >500+</li>
+
+														<li class="capacity-item" data-sample="lower" data-value=1000 >1000+</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+								<div class="col-lg-4 col-sm-4">
+									<input type="number" min="10" id="pax-value" class="box lower-box form-control" data-sample=
+									"lower" name="people" placeholder="No of Guests"
+									tabindex="0" data-keepOpenOnClick>
+								</div>
+								<!-- <div class="col-sm-5">
+									How many guests are you expecting at your event?
+								</div> -->
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="filters-price filter-section bootstro is-hidden"
+					data-bootstro-step="3"
+					data-bootstro-title="Filter by Capacity"
+					data-bootstro-content="<p>Move the sliders to change the price per plate</p>"
+					data-bootstro-placement="left">
+
+					<div class="row">
+						<div class="col-sm-2">
+							<div class="filter-title">Price per Guest</div>
+						</div>
+						<div class="col-sm-6">
+							<div id="collapsePriceRange" class="in">
+								<div class="smoothscroll maxheight300">
+									<div id="price-range-slider"></div>
+									<div id="price-range-text">
+										<div class="pull-left price-input">
+											Rs.<input name="price1" id="price-range-min" type="number" min="0" step="50" value="0" class="form-control" />
+										</div> -
+										<div class="pull-right price-input">
+											Rs.<input id="price-range-max" name="price2" type="number" max="6000" step="50" value="6000" class="form-control" />
+										</div>
+										<div class="clearfix"></div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4">
+						<div class="filters-price--actions">
+							<div>
+								<a class="all-reset btn btn-default btn-sm reset-btn"><i class="fa fa-repeat" aria-hidden="true"></i> Reset Filters</a>
+								<!-- <button class="more-filter-btn" type="button" data-toggle="collapse" data-target="#collapseFilter" aria-expanded="false" aria-controls="collapseFilter">
+								  More Filters <i class="fa fa-angle-down" aria-hidden="true"></i>
+								</button> -->
+							</div>
+						</div>
+							<!-- <div class="text-right">
+								<div>
+									<a id="all-reset" class="btn btn-default btn-sm reset-btn">Reset Filters</a>
+								</div>
+								<button class="more-filter-btn" type="button" data-toggle="collapse" data-target="#collapseFilter" aria-expanded="false" aria-controls="collapseFilter">
+								  More Filters
+								</button>
+							</div> -->
+						</div>
+					</div>
+				</div>
+				<div class="filters-type filter-section bootstro"
+					data-bootstro-step="2"
+					data-bootstro-title="Filter by Type"
+					data-bootstro-content="<p>Choose from a variety of venue types</p>"
+					data-bootstro-placement="right">
+
+					<div class="row">
+						<div class="col-sm-2">
+							<div class="filter-title">More</div>
+						</div>
+						<div class="col-sm-10">
+							
+							<div class="clearfix"></div>
+							<ul class="venue-types">
+								
+								<li class="">
+									<label style="margin: 1%">
+										<input type="radio"  checked="checked"  data-type="category" name="rate" value="1"  />
+										<a>Rating</a>
+									</label>
+								</li>
+								
+								<li class="">
+									<label>
+										<input type="radio"  data-type="category" name="rate" value="2"  />
+										<a>A-Z</a>
+									</label>
+								</li>
+								
+								<li class="">
+									<label>
+										<input type="radio"  data-type="category" name="rate" value="3"  />
+										<a>Z-A</a>
+									</label>
+								</li>
+								
+								<li class="">
+									<label style="margin: 1%">
+										<input type="radio"  data-type="category" name="category" value="Economic"  />
+										<a>Economic</a>
+									</label>
+								</li>
+								
+								<li class="">
+									<label>
+										<input type="radio"  data-type="category" name="category" value="Business"  />
+										<a>Business</a>
+									</label>
+								</li>
+								
+								<li class="">
+									<label>
+										<input type="radio"  data-type="category" name="category" value="First"  />
+										<a>First</a>
+									</label>
+								</li>
+								
+
+								
+								<div class="clearfix"></div>
+								</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="filters-features filter-section bootstro"
+					data-bootstro-step="4"
+					data-bootstro-title="Filter by Featured"
+					data-bootstro-content="<p>Select the features available to filter the perfect results</p>"
+					data-bootstro-placement="left">
+
+					<div class="row">
+						<div class="col-sm-2">
+							<div class="filter-title">Features</div>
+						</div>
+						<div class="col-sm-10">
+							<ul class="venue-features">
+								
+								
+								
+									<li class="">
+										<input type="checkbox"  data-type="features" name="inhouse_food" id="inhouse_food_id" value="1" />
+										<label for="inhouse_food_id">Food provided by the venue </label>
+									</li>
+								
+									<li class="">
+										<input type="checkbox"  data-type="features" name="outhouse_food" id="outhouse_food_id" value="1" />
+										<label for="outhouse_food_id">Outside food/caterer allowed at the venue </label>
+									</li>
+								
+									<li class="">
+										<input type="checkbox"  data-type="features" name="nonveg_food" id="nonveg_food_id" value="1" />
+										<label for="nonveg_food_id">Non-Veg allowed at the venue </label>
+									</li>
+								
+									<li class="">
+										<input type="checkbox"  data-type="features" name="only_veg_food" id="only_veg_food_id" value="1" />
+										<label for="only_veg_food_id">Only Veg allowed at the venue </label>
+									</li>
+								
+									<li class="">
+										<input type="checkbox"  data-type="features" name="inhouse_alcohol" id="inhouse_alcohol_id" value="1" />
+										<label for="inhouse_alcohol_id">Alcohol allowed at the venue </label>
+									</li>
+								
+									<li class="">
+										<input type="checkbox"  data-type="features" name="outside_alcohol" id="outside_alcohol_id" value="1" />
+										<label for="outside_alcohol_id">Outside alcohol allowed at the venue </label>
+									</li>
+								
+									<li class="">
+										<input type="checkbox"  data-type="features" name="open_late" id="open_late_id" value="1" />
+										<label for="open_late_id">Music allowed late </label>
+									</li>
+																
+								
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			
+
+				<div class="slot-features filter-section bootstro"
+					data-bootstro-step="4"
+					data-bootstro-title="Filter by Featured"
+					data-bootstro-content="<p>Select the features available to filter the perfect results</p>"
+					data-bootstro-placement="left">
+
+					<div class="row">
+						<div class="col-sm-2">
+							<div class="filter-title">Availability</div>
+						</div>
+						<div class="col-sm-10">
+							<ul class="availability-types">
+						<li class="">
+										<!--<input type="date" id="eventDateFilter"   name="Event Date" value="" width: 120px; /> -->
+                  <input class="form-control" type="text" name="beta_date" placeholder="Enter Date" id="filterByDate">    
+                  <label for="filterByDate">Event <div>Date</div></label>
+								</li>
+								<li class="">
+										<input type="radio"  name="first" value="1" />
+									<label>9AM to 1PM</label>
+								</li>
+								<li class="">
+										<input type="radio"  name="first" value="2" />
+									<label>7PM to 11PM</label>
+								</li>
+								
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="filter-actions ">
+					<div class="row">
+						<!-- <div class="col-md-12">
+							<div class="">
+								<button type="button" class="btn btn-link btn-sm cancel collapse-filters pull-right" data-toggle="collapse" data-target="#collapseFilter" aria-expanded="false" aria-controls="collapseFilter">Less Filters</button>
+							</div>
+						</div> -->
+						<div class="col-lg-8 col-md-7 col-sm-7"></div>
+						<div class="col-lg-4 col-md-5 col-sm-5">
+							<div class="filter-actions--actions">
+								<div>
+									<input type="submit"  >
+									<button type="button" class="btn btn-link btn-sm cancel collapse-filters pull-right" data-toggle="collapse" data-target="#collapseFilter" aria-expanded="false" aria-controls="collapseFilter">Less Filters <i class="fa fa-angle-up" aria-hidden="true"></i></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+<!-- 				<div class="moreFilter" >
+					<div class=" filterParent">
+						<button class="btn btn-white btn-curved view-filter-btn" type="button" >
+							Filters
+						</button>
+						<div class="filter-bar-text ">Use our filters to find the perfect venue!</div>
+						<button class="btn planning-btn venue_listing btn-default pull-right open-planning" type="button" >
+							Let us plan your wedding
+						</button>
+					</div>
+				</div> -->
+
+				<div class="clearfix"></div>
+			</div>
+
+		</form>
+	</div>
+</div>
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"WebPage","aggregateRating":{"@type":"AggregateRating","ratingValue":"4.40","reviewCount":"5125","bestRating":"5","worstRating":"1","itemReviewed":"ServiceReview"}}</script>
+<script type="application/ld+json">{"@context": "http://schema.org", "ReviewRating": {"worstRating": "1", "reviewCount": 5125, "bestRating": "5", "@type": "AggregateRating", "ratingValue": 4.4}, "@type": "Review", "itemReviewed": {"url": "https://weddingz.in/banquet-halls/mumbai/all/", "image": "", "address": {"addressLocality": "Mumbai", "@type": "PostalAddress"}, "@type": "LocalBusiness", "name": "Banquet HallsMumbai"}, "author": "Users"}</script>
+
+
+<script src="https://d23aex6kzd4ahz.cloudfront.net/dist/js/6.16/new_global_plugins.min.js" type="text/javascript"></script>
+
+  <!--Weddingz Global JS. Need to load this only after all js is loaded -->
+
+  <script src="https://d23aex6kzd4ahz.cloudfront.net/dist/js/6.16/new_global_custom.min.js" type="text/javascript"></script>
+
+
+  <script src="https://d23aex6kzd4ahz.cloudfront.net/dist/js/6.16/venue_listing_page.min.js" type="text/javascript"></script>
+
+  
+
+<script type="text/javascript" src="https://d23aex6kzd4ahz.cloudfront.net/facebook/js/fbconnect.js"></script>
+
+</body>
+</html>
