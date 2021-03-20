@@ -1,4 +1,4 @@
-# DBMSProject
+# DBMS ProjectEvent Management System
 
 ## Summary of the Project 
 
