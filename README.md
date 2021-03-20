@@ -53,7 +53,7 @@ Coding
 ## My Contribution
 
 1. Create Tables in MySql
-2. Write backedn part in php like authentication and connection to database.
+2. Write backend part in php like authentication and connection to database.
 3. Converting HTML files provided to work with php code
 
 ## Screenshot of Output
